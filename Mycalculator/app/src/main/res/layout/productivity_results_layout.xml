@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardBackgroundColor="#F6F6FF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Productivity Result"
+            android:textAlignment="center"
+            android:textColor="#5555CC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvProductivityPercentage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="45%"
+            android:textAlignment="center"
+            android:textColor="#6C63FF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/tvProductivityLevel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Productivity Level: Medium"
+            android:textAlignment="center"
+            android:textColor="#888888"
+            android:textSize="16sp"
+            android:layout_marginBottom="24dp" />
+
+        <ProgressBar
+            android:id="@+id/progressProductivity"
+            style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:progress="45"
+            android:progressTint="#6C63FF"
+            android:progressBackgroundTint="#E0E0E0"
+            android:layout_marginBottom="32dp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnViewSuggestions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="View Suggestions"
+            android:textColor="#6C63FF"
+            android:background="@drawable/rounded_button_outline"
+            android:textAlignment="center"
+            android:paddingVertical="12dp" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
