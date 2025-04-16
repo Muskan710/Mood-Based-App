@@ -15,7 +15,7 @@
             android:id="@+id/tvSuggestionTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@drawable/button_calculate"
+            android:background="#7B68EE"
             android:padding="16dp"
             android:text="Productivity Suggestions"
             android:textAlignment="center"
